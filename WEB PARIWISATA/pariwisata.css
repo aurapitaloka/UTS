@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    background-color: #176B87;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .logo {
+    text-decoration: none;
+    color: white; 
+    font-size: 24px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2ecbff; 
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px; 
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #053B50;
+}
+  .Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+  }
+
+  .Home-content{
+    max: width 600px;
+  }
+
+  .Home-content h3{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .Home-content h4{
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .Home-content h4 span {
+    color:#053B50;
+  }
+
+  .Home-content h1{
+    color: #053B50;
+    font-size: 100;
+    font-weight: 850;
+    margin: -3 0;
+  }
+
+
+  .Home-img gambar{
+    max-width: 600;
+  }
+
+  .About {
+    width: 100%;
+    padding: 100px 0;
+  }
+  
+  .About img {
+    height: auto;
+    width: 430px;
+    margin-right: 30px; 
+  }
+  
+  .About-text {
+    width: 550px;
+    margin-top: 20px;
+  }
+  
+  .About-content {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .About h2 {
+    color: white; 
+    font-size: 45px; 
+    line-height: 1.5; 
+}
+
+.About-text h2 {
+  color: #fff; 
+  font-size: 85px; 
+  text-transform: capitalize;
+  margin-bottom: 30px; 
+}
+
+.About-text h3 {
+  color: white; 
+  letter-spacing: 2px; 
+  font-size: 22px; 
+  margin-bottom: 20px; 
+  text-transform: capitalize; 
+  margin-top: 20px; 
+}
+
+
+.About-text p {
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: px;
+}
+
+
+  button {
+    background-color: #0ef;
+    color: black;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    border: 2px solid #0ef;
+  }
+
+  .service {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  
+  .title h2 {
+    color: #053B50;
+    font-size: 45px;
+    max-width: 900px; 
+    margin: 10px auto;
+    text-align: center;
+  }
+
+.Ticket {
+    margin-top: 5px;
+    background-color: #176B87; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.Ticket-content h2 {
+  color: white; 
+    font-size: 45px; 
+    line-height: 1.5; 
+    margin-bottom: 36px;
+}
+
+.box {
+    display: flex; 
+    justify-content: center; 
+}
+
+.card {
+    background-color:#fff; 
+    border: 1px solid #406b79; 
+    padding: 20px;
+    margin: 10px; 
+    text-align: center; 
+}
+
+.card i {
+    font-size: 24px; 
+    color: #053B50; 
+}
+
+.card h5 {
+    font-size: 18px; 
+    color: #053B50; 
+}
+
+.pra li {
+    list-style: none; 
+    padding-left: 0; 
+    font-size: 16px; 
+}
+
+body {
+    background-color: #176B87;
+}
+
+
+#Gallery {
+    margin-top: 70px;
+    background-color: #176B87;
+    text-align: center; 
+}
+
+#Gallery h2 {
+  color: white; 
+  font-size: 45px; 
+  line-height: 1.5; 
+  margin-bottom: 36px;
+}
+
+.gallery-container {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container img {
+    width: 30%;
+    margin: 0 5px;
+}
+
+.gallery-container video {
+    width: 30%;
+    height: 30%;
+    margin: 0 5px;
+}
+
+
+#location h2 {
+  color: white; 
+  font-size: 45px; 
+  line-height: 1.5; 
+  margin-bottom: 36px;
+  margin-top: 36px;
+  margin-bottom: 10px; 
+}
+
+#location iframe {
+    margin-top: 40px;
+    width: 100%;
+    height: 300px; 
+    border: 0; 
+    loading: lazy;
+}
+
+.schedule{
+    margin-top: 100px;
+
+}
+
+.schedule h2 {
+  color: white; 
+  font-size: 45px; 
+  line-height: 1.5;
+  margin-bottom: 36px;
+  margin-top: 65px;
+  text-align: center;
+}
+
+.schedule-table {
+    width: 50%;
+    border: 2px solid #000; 
+    border-collapse: collapse; 
+    margin: 0 auto;
+}
+
+.schedule-table th {
+    background-color: #d8a859; 
+}
+
+.schedule-table th, .schedule-table td {
+    border: 2px solid #000; 
+    padding: 5px; 
+}
+
+.Booking {
+    margin-top: 20px; 
+}
+
+#Booking {
+  background-color: #176B87;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#Booking h2 {
+  font-size: 30px; 
+  margin-bottom: 10px; 
+}
+
+form {
+  max-width: 400px; 
+  margin: 0 auto;
+  background-color: #053B50; 
+  padding: 20px;
+  border-radius: 8px; 
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px; 
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px; 
+  border: 1px solid #2ecbff; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px; 
+}
+
+form input[type="submit"] {
+  background-color: #2ecbff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px; 
+  padding: 12px 15px; 
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #053B50;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1){
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2){
+  color:#fff;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.social{
+  display: flex;
+}
+
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0ef;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: #0e0d0d;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social a:hover{
+  transform: scale(1.3);
+  transition: .3s;
+}
+
+.end{
+  position: absolute;
+  color: #0ef;
+  bottom: 20px;
+  font-size: 14px;
+  
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+

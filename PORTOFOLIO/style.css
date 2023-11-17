@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Candara;
+  }
+  
+  body {
+    background: #1f242d;
+    color: #fff;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%; 
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; 
+  }
+  
+  .navbar a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+
+  .navbar a:hover {
+    color: #0ef; 
+  }
+  
+  .Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+  }
+
+  .Home-content{
+    max: width 600px;
+  }
+
+  .Home-content h3{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .Home-content h4{
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .Home-content h4 span {
+    color:#0ef;
+  }
+
+  .Home-content h1{
+    color: #0ef;
+    font-size: 100;
+    font-weight: 850;
+    margin: -3 0;
+  }
+
+  .Home-img gambar{
+    max-width: 600;
+  }
+
+
+  
+  .About {
+    width: 100%;
+    padding: 100px 0;
+  }
+  
+  .About img {
+    height: auto;
+    width: 430px;
+    margin-right: 30px; 
+  }
+  
+  .About-text {
+    width: 550px;
+    margin-top: 20px;
+  }
+  
+  .About-content {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .About-text h2 {
+    color: white;
+    font-size: 85px;
+    text-transform: capitalize;
+    margin-bottom: 30px; 
+  }
+  
+  .About-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  
+  
+  .About-content h5 span {
+    color: #0ef;
+  }
+  
+  .About-text p {
+    color: #0ef;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+
+
+  
+  button:hover {
+    background-color: transparent;
+    border: 2px solid #0ef;
+  }
+
+  .service {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  
+  .title h2 {
+    color: white;
+    font-size: 45px;
+    max-width: 1130px; 
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+  }
+  
+  .card {
+    font-size: 14px;
+    height: 280px;
+    width: 280px;
+    padding: 20px 35px;
+    background-color: #262424;
+    border-radius: 20px;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+
+  .card i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0ef;
+  }
+  
+  .card h5 {
+    color: #0ef;
+    font-size: 20px; 
+    margin-bottom: 15px;
+  }
+  
+  .card .pra p {
+    font-size: 14px; 
+    margin-bottom: 15px;
+  }
+
+  footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer p:nth-child(1){
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  footer p:nth-child(2){
+    color:#fff;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 10px;
+  }
+
+  .social{
+    display: flex;
+  }
+
+  .social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0ef;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #0e0d0d;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+  }
+
+  .end{
+    position: absolute;
+    color: #0ef;
+    bottom: 20px;
+    font-size: 14px;
+    
+  }
+
+  
